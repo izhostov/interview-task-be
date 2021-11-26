@@ -11,7 +11,7 @@ const ormConfig: ConnectionOptions = {
     host: process.env.DATABASE_HOST || '127.0.0.1',
     port: normalizePort(process.env.DATABASE_PORT) || 3306,
     username: process.env.DATABASE_USER || 'root',
-    password: process.env.DATABASE_PASS || 'root',
+    password: process.env.DATABASE_PASS || 'virtualroot',
     database: process.env.DATABASE_NAME || 'default',
     entities: [`${parentDir}/model/entity/**/*{.ts,.js}`],
     migrations: [`${parentDir}/model/migration/**/*{.ts,.js}`],

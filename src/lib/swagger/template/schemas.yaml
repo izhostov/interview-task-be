@@ -13,3 +13,15 @@ components:
       - status
       - code
       - message
+    Form:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: First Name
+        lastName:
+          type: string
+          description: Last Name
+        email:
+          type: string
+          description: Email

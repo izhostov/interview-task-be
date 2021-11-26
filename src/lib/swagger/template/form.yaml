@@ -1,0 +1,16 @@
+/form:
+  post:
+    tags: [Form]
+    summary: Validate Form
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Form'
+	
+    responses:
+      200:
+        description: The form is valid
+      500:
+        description: Some server error

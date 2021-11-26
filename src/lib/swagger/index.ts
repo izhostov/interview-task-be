@@ -30,7 +30,8 @@ const options = {
     path.join(__dirname, './template/schemas.yaml'),
     path.join(__dirname, './template/headers.yaml'),
     path.join(__dirname, './template/parameters.yaml'),
-    path.join(__dirname, './template/responses.yaml')
+    path.join(__dirname, './template/responses.yaml'),
+    path.join(__dirname, './template/form.yaml')
   ]
 };
 
